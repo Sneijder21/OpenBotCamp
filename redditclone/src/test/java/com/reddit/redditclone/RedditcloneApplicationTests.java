@@ -1,10 +1,10 @@
-package com.example.obrest.datajpa;
+package com.reddit.redditclone;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class RedditcloneApplicationTests {
 
 	@Test
 	void contextLoads() {

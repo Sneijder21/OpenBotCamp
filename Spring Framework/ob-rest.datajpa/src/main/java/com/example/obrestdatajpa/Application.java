@@ -5,10 +5,13 @@ import com.example.obrestdatajpa.repository.BookRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.time.LocalDate;
 
 @SpringBootApplication
+@EnableWebMvc
 public class Application {
 
 	public static void main(String[] args) {
